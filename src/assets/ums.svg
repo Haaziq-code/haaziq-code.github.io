@@ -1,0 +1,71 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- University Management System Project Image -->
+  <defs>
+    <linearGradient id="umsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C3E50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#umsGradient)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="400" height="60" fill="rgba(0,0,0,0.1)"/>
+  <text x="200" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">UMS</text>
+  <text x="200" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">University Management System</text>
+
+  <!-- University building -->
+  <g transform="translate(50, 80)">
+    <!-- Main building -->
+    <rect x="50" y="40" width="200" height="100" fill="url(#buildingGradient)" stroke="#BDC3C7" stroke-width="2"/>
+    
+    <!-- Windows -->
+    <rect x="70" y="60" width="20" height="20" fill="#3498DB"/>
+    <rect x="100" y="60" width="20" height="20" fill="#3498DB"/>
+    <rect x="130" y="60" width="20" height="20" fill="#3498DB"/>
+    <rect x="160" y="60" width="20" height="20" fill="#3498DB"/>
+    <rect x="190" y="60" width="20" height="20" fill="#3498DB"/>
+    
+    <rect x="70" y="90" width="20" height="20" fill="#3498DB"/>
+    <rect x="100" y="90" width="20" height="20" fill="#3498DB"/>
+    <rect x="130" y="90" width="20" height="20" fill="#3498DB"/>
+    <rect x="160" y="90" width="20" height="20" fill="#3498DB"/>
+    <rect x="190" y="90" width="20" height="20" fill="#3498DB"/>
+    
+    <!-- Door -->
+    <rect x="140" y="100" width="20" height="40" fill="#8B4513"/>
+    
+    <!-- Roof -->
+    <polygon points="40,40 150,10 260,40" fill="#E74C3C"/>
+    
+    <!-- Flag -->
+    <rect x="150" y="10" width="30" height="20" fill="#2ECC71"/>
+    <rect x="150" y="10" width="15" height="10" fill="#E74C3C"/>
+  </g>
+
+  <!-- System modules -->
+  <g transform="translate(300, 100)">
+    <!-- Students module -->
+    <rect x="0" y="0" width="80" height="30" rx="5" fill="#3498DB"/>
+    <text x="40" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Students</text>
+    
+    <!-- Faculty module -->
+    <rect x="0" y="40" width="80" height="30" rx="5" fill="#E74C3C"/>
+    <text x="40" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Faculty</text>
+    
+    <!-- Charity module -->
+    <rect x="0" y="80" width="80" height="30" rx="5" fill="#2ECC71"/>
+    <text x="40" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Charity</text>
+  </g>
+
+  <!-- JavaFX indicator -->
+  <circle cx="350" cy="200" r="20" fill="#FF6B35" stroke="white" stroke-width="3"/>
+  <text x="350" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Java</text>
+  <text x="350" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">JavaFX</text>
+</svg>
+

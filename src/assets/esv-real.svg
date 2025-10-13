@@ -1,0 +1,61 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- ESV Real Project Image -->
+  <defs>
+    <linearGradient id="esvRealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#32cd32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="spiralGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0000ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#esvRealGradient)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="400" height="60" fill="rgba(0,0,0,0.1)"/>
+  <text x="200" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">ESV Species Visualizer</text>
+  <text x="200" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Endangered Species Data Visualization</text>
+
+  <!-- Main content area -->
+  <g transform="translate(50, 80)">
+    <!-- Leaf logo -->
+    <g transform="translate(50, 50)">
+      <!-- Leaf outline -->
+      <path d="M0,0 Q20,-10 40,0 Q30,20 20,40 Q10,20 0,0 Z" fill="url(#leafGradient)" stroke="#228b22" stroke-width="2"/>
+      
+      <!-- Blue spiral inside leaf -->
+      <path d="M20,20 Q25,15 30,20 Q25,25 20,30 Q15,25 20,20" fill="url(#spiralGradient)"/>
+      <path d="M20,20 Q22,18 24,20 Q22,22 20,24 Q18,22 20,20" fill="url(#spiralGradient)"/>
+    </g>
+    
+    <!-- ESV Text -->
+    <text x="120" y="70" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#000000">ESV</text>
+    <text x="120" y="90" font-family="Arial, sans-serif" font-size="16" fill="#333333">Species Visualizer</text>
+    
+    <!-- Additional elements -->
+    <rect x="120" y="100" width="200" height="2" fill="#e0e0e0"/>
+    
+    <!-- Feature indicators -->
+    <circle cx="130" cy="120" r="3" fill="#32cd32"/>
+    <text x="140" y="125" font-family="Arial, sans-serif" font-size="10" fill="#333">Interactive Maps</text>
+    
+    <circle cx="130" cy="140" r="3" fill="#4169e1"/>
+    <text x="140" y="145" font-family="Arial, sans-serif" font-size="10" fill="#333">3D Animal Models</text>
+    
+    <circle cx="130" cy="160" r="3" fill="#ff6b35"/>
+    <text x="140" y="165" font-family="Arial, sans-serif" font-size="10" fill="#333">Real-time Data</text>
+  </g>
+
+  <!-- Star icon (top right) -->
+  <g transform="translate(350, 20)">
+    <polygon points="0,-8 2.5,-2.5 8,0 2.5,2.5 0,8 -2.5,2.5 -8,0 -2.5,-2.5" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  </g>
+</svg>
+

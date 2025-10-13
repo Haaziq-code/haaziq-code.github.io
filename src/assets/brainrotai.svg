@@ -1,0 +1,42 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- BrainrotAI Project Image -->
+  <defs>
+    <linearGradient id="brainrotGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF1493;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8A2BE2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#brainrotGradient)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="400" height="60" fill="rgba(0,0,0,0.1)"/>
+  <text x="200" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">BrainrotAI</text>
+  <text x="200" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Slang-Fluent AI Chatbot</text>
+
+  <!-- Chat interface -->
+  <g transform="translate(50, 80)">
+    <!-- Chat bubble 1 -->
+    <rect x="0" y="0" width="200" height="40" rx="20" fill="url(#chatGradient)"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">yo what's good fam? 🤖</text>
+    
+    <!-- Chat bubble 2 -->
+    <rect x="150" y="50" width="200" height="40" rx="20" fill="#00D4FF"/>
+    <text x="170" y="75" font-family="Arial, sans-serif" font-size="12" fill="white">no cap that's fire 🔥</text>
+    
+    <!-- Chat bubble 3 -->
+    <rect x="0" y="100" width="180" height="40" rx="20" fill="url(#chatGradient)"/>
+    <text x="20" y="125" font-family="Arial, sans-serif" font-size="12" fill="#333">bet, let's keep it real 💯</text>
+  </g>
+
+  <!-- AI brain icon -->
+  <circle cx="350" cy="200" r="20" fill="#FFD700" stroke="white" stroke-width="3"/>
+  <text x="350" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">🧠</text>
+  <text x="350" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">AI</text>
+</svg>
+
