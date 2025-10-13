@@ -28,7 +28,6 @@ import tutor from "./company/tutor.png";
 import jobit from "./jobit.png";
 import feedmePng from "./feed-me.png";
 import esv from "./esv-real.svg";
-import esvPng from "./ESV.png";
 import brainrotai from "./brainrotai.svg";
 import brainrotPng from "./brainrot.png";
 import trenderPng from "./trender.png";
@@ -63,7 +62,6 @@ export {
   jobit,
   feedmePng,
   esv,
-  esvPng,
   brainrotai,
   brainrotPng,
   trenderPng,

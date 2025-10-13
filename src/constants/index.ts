@@ -29,7 +29,7 @@ import {
   feedmePng,
   tutorPng,
   ums,
-  esvPng,
+  esv,
   brainrotPng,
   trenderPng,
 } from "../assets";
@@ -254,7 +254,7 @@ const projects: TProject[] = [
         color: "orange-text-gradient",
       },
     ],
-    image: esvPng,
+    image: esv,
     sourceCodeLink: "https://www.linkedin.com/feed/update/urn:li:ugcPost:7343058614061789185",
   },
   {
